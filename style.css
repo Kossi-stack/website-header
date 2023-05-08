@@ -1,10 +1,11 @@
 .site-header {
     height: 70px;
-    background-color: #f2f2f2;
+    background-color: #f3f3f3;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    margin: 0;
 }
  
 .logo {
@@ -20,15 +21,15 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: 10px;
 }
 
 .site-nav li a {
     text-decoration: none;
-    color: #333;
-    padding: 5px;
+    color: rgb(11, 12, 13); 
+    padding: 15px;
 }
 
 .site-nav li a:hover {
-    color: #666;
+    color: rgb(173, 41, 85);
 }
